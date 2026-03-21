@@ -1,13 +1,10 @@
 {
-    "recommendations": [
-        "biomejs.biome",
-        "yoavbls.pretty-ts-errors"
-    ],
-    "unwantedRecommendations": [
-        "esbenp.prettier-vscode",
-        "dbaeumer.vscode-eslint",
-        "ritwickdey.liveserver",
-        "wix.vscode-import-cost",
-        "dsznajder.es7-react-js-snippets"
-    ]
+	"recommendations": ["biomejs.biome", "yoavbls.pretty-ts-errors"],
+	"unwantedRecommendations": [
+		"esbenp.prettier-vscode",
+		"dbaeumer.vscode-eslint",
+		"ritwickdey.liveserver",
+		"wix.vscode-import-cost",
+		"dsznajder.es7-react-js-snippets"
+	]
 }
