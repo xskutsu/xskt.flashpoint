@@ -41,6 +41,7 @@ if (directories.size === 0) {
 		} catch (error) {
 			console.error("Failed to clean directory:", dir);
 			console.error(error);
+			process.exit(1);
 		}
 	}
 }
