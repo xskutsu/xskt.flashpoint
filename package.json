@@ -1,37 +1,37 @@
 {
-	"name": "xskt.flashpoint",
-	"version": "1.0.0",
-	"description": "A project template for me, myself, and I. Feel free to use it though, not me.",
-	"type": "module",
-	"main": "index.cjs",
 	"author": {
 		"name": "xskutsu",
 		"url": "https://github.com/xskutsu"
-	},
-	"license": "UNLICENSED",
-	"private": false,
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/xskutsu/xskt.Flashpoint.git"
-	},
-	"bugs": {
-		"url": "https://github.com/xskutsu/xskt.Flashpoint/issues"
-	},
-	"homepage": "https://github.com/xskutsu/xskt.Flashpoint#readme",
-	"keywords": [],
-	"engines": {
-		"node": ">=20.12.2",
-		"pnpm": ">=10.0.0",
-		"npm": "please_use_pnpm_instead_of_npm"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "^2.4.8",
-		"esbuild": "^0.27.4",
-		"porffor": "^0.61.12"
 	},
 	"browserslist": [
 		"defaults and fully supports wasm",
 		"maintained node versions",
 		"not dead"
-	]
+	],
+	"bugs": {
+		"url": "https://github.com/xskutsu/xskt.Flashpoint/issues"
+	},
+	"description": "A project template for me, myself, and I. Feel free to use it though, not me.",
+	"devDependencies": {
+		"@biomejs/biome": "^2.4.8",
+		"esbuild": "^0.27.4",
+		"porffor": "^0.61.12"
+	},
+	"engines": {
+		"node": ">=20.12.2",
+		"npm": "please_use_pnpm_instead_of_npm",
+		"pnpm": ">=10.0.0"
+	},
+	"homepage": "https://github.com/xskutsu/xskt.Flashpoint#readme",
+	"keywords": [],
+	"license": "UNLICENSED",
+	"main": "index.cjs",
+	"name": "xskt.flashpoint",
+	"private": false,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/xskutsu/xskt.Flashpoint.git"
+	},
+	"type": "module",
+	"version": "1.0.0"
 }
