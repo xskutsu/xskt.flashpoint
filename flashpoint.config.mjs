@@ -20,7 +20,7 @@ export default {
 				bundle: true,
 				entryPoints: ["src/userscript/index.ts"],
 				format: "iife",
-				minify: true,
+				minify: false,
 				outfile: "dist/index.userscript.js",
 				platform: "browser",
 				sourcemap: false,
@@ -32,7 +32,7 @@ export default {
 		{
 			esbuild: {
 				banner: {
-					js: "Copyright (c) 2026 xskutsu. Licensed under the UNLICENSED",
+					js: "// Copyright (c) 2026 xskutsu. Licensed under the UNLICENSED",
 				},
 				bundle: true,
 				entryPoints: ["src/server/index.ts"],
@@ -49,7 +49,7 @@ export default {
 		{
 			esbuild: {
 				banner: {
-					js: "Copyright (c) 2026 xskutsu. Licensed under the UNLICENSED",
+					js: "// Copyright (c) 2026 xskutsu. Licensed under the UNLICENSED",
 				},
 				bundle: true,
 				entryPoints: ["src/client/index.ts"],
@@ -74,11 +74,12 @@ export default {
 				tsconfig: "src/porffor/tsconfig.json",
 			},
 			name: "Porffor Target",
+			outfile: "dist/index.wasm",
 			porffor: {
-				opt: true,
-				outfile: "dist/porffor.wasm",
-				target: "wasm",
-				valtype: "f64",
+				optimizationLevel: 2,
+				optTypes: true,
+				parseTypes: true,
+				valType: "f64",
 			},
 			type: "porffor",
 		},
