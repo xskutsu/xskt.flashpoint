@@ -32,5 +32,8 @@
 		"type": "git",
 		"url": "git+https://github.com/xskutsu/xskt.Flashpoint.git"
 	},
+	"scripts": {
+		"clean": "node scripts/clean.mjs"
+	},
 	"version": "1.0.0"
 }
